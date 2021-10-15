@@ -3,11 +3,6 @@ const fs = require("fs");
 inquirer.prompt([
     {
         type: "input",
-        message: "Please provide a Name for your README file: ",
-        name: "readmeName",
-    },
-    {
-        type: "input",
         message: "Please provide a Name for your project: ",
         name: "projectName",
     },
